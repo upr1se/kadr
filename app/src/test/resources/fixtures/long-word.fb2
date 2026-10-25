@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0">
+  <description>
+    <title-info>
+      <book-title>Длинное слово</book-title>
+      <author><nickname>Проверка вёрстки</nickname></author>
+      <lang>ru</lang>
+    </title-info>
+  </description>
+  <body>
+    <section>
+      <title>Типографика</title>
+      <p>До сверхдлинноесловобезпробеловисходногомакетакотороедолжнопоместитьсянаэкранбезобрезки После.</p>
+    </section>
+  </body>
+</FictionBook>

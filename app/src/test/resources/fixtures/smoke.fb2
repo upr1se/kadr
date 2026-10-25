@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0"
+             xmlns:l="http://www.w3.org/1999/xlink">
+  <description>
+    <title-info>
+      <book-title>Слово: проверка чтения</book-title>
+      <author>
+        <first-name>Анна</first-name>
+        <last-name>Синтетикова</last-name>
+      </author>
+      <lang>ru</lang>
+    </title-info>
+  </description>
+  <body>
+    <section>
+      <title><p>Начало</p></title>
+      <p>Утро было тихим, и город ещё спал. Над крышами медленно светлело небо.</p>
+      <p>Анна открыла книгу и увидела первое слово<a type="note" l:href="#n1">1</a>.</p>
+      <poem>
+        <stanza>
+          <v>Спокойный ветер у окна,</v>
+          <v>И новая страница.</v>
+        </stanza>
+      </poem>
+    </section>
+    <section>
+      <title><p>Дорога</p></title>
+      <p>Она вышла на улицу и пошла к реке. Впереди ждал длинный день.</p>
+      <epigraph>
+        <p>Каждое слово оставляет след.</p>
+      </epigraph>
+    </section>
+    <section>
+      <title><p>Возвращение</p></title>
+      <p>Вечером книга снова лежала на столе. Чтение продолжалось.</p>
+      <subtitle>Конец первой главы</subtitle>
+    </section>
+  </body>
+  <body name="notes">
+    <section id="n1">
+      <p>Сноска показывает, что дополнительный текст не попадает в основной поток.</p>
+    </section>
+  </body>
+</FictionBook>

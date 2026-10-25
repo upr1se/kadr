@@ -1,0 +1,256 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "c32bc918201c4aac22c0d0077c873251",
+    "entities": [
+      {
+        "tableName": "books",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `title` TEXT NOT NULL, `authorDisplay` TEXT, `language` TEXT, `format` TEXT NOT NULL, `sourceFileName` TEXT NOT NULL, `folderRelativePath` TEXT NOT NULL, `archiveEntryPath` TEXT, `archiveEntryIndex` INTEGER, `sourceHash` TEXT NOT NULL, `contentHash` TEXT NOT NULL, `sourceSizeBytes` INTEGER NOT NULL, `wordCount` INTEGER NOT NULL, `chapterCount` INTEGER NOT NULL, `coverRelativePath` TEXT, `contentState` TEXT NOT NULL, `readingState` TEXT NOT NULL, `currentItemOrdinal` INTEGER NOT NULL, `currentCharOffset` INTEGER NOT NULL, `currentWordIndex` INTEGER NOT NULL, `currentSentenceId` INTEGER, `currentChapterKey` TEXT, `currentChapterTitle` TEXT, `positionFingerprint` TEXT, `positionRevision` INTEGER NOT NULL, `progressPercent` INTEGER NOT NULL, `lastSpeedWpm` INTEGER, `parserVersion` INTEGER NOT NULL, `indexVersion` INTEGER NOT NULL, `layoutVersion` INTEGER NOT NULL, `importedAt` INTEGER NOT NULL, `lastOpenedAt` INTEGER, `lastSavedAt` INTEGER, `lastErrorCode` TEXT, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "title",
+            "columnName": "title",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "authorDisplay",
+            "columnName": "authorDisplay",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "language",
+            "columnName": "language",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "format",
+            "columnName": "format",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sourceFileName",
+            "columnName": "sourceFileName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "folderRelativePath",
+            "columnName": "folderRelativePath",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "archiveEntryPath",
+            "columnName": "archiveEntryPath",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "archiveEntryIndex",
+            "columnName": "archiveEntryIndex",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "sourceHash",
+            "columnName": "sourceHash",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "contentHash",
+            "columnName": "contentHash",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sourceSizeBytes",
+            "columnName": "sourceSizeBytes",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "wordCount",
+            "columnName": "wordCount",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "chapterCount",
+            "columnName": "chapterCount",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "coverRelativePath",
+            "columnName": "coverRelativePath",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "contentState",
+            "columnName": "contentState",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "readingState",
+            "columnName": "readingState",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "currentItemOrdinal",
+            "columnName": "currentItemOrdinal",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "currentCharOffset",
+            "columnName": "currentCharOffset",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "currentWordIndex",
+            "columnName": "currentWordIndex",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "currentSentenceId",
+            "columnName": "currentSentenceId",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "currentChapterKey",
+            "columnName": "currentChapterKey",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "currentChapterTitle",
+            "columnName": "currentChapterTitle",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "positionFingerprint",
+            "columnName": "positionFingerprint",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "positionRevision",
+            "columnName": "positionRevision",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "progressPercent",
+            "columnName": "progressPercent",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lastSpeedWpm",
+            "columnName": "lastSpeedWpm",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "parserVersion",
+            "columnName": "parserVersion",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "indexVersion",
+            "columnName": "indexVersion",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "layoutVersion",
+            "columnName": "layoutVersion",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "importedAt",
+            "columnName": "importedAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lastOpenedAt",
+            "columnName": "lastOpenedAt",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "lastSavedAt",
+            "columnName": "lastSavedAt",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "lastErrorCode",
+            "columnName": "lastErrorCode",
+            "affinity": "TEXT"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_books_contentState_lastOpenedAt",
+            "unique": false,
+            "columnNames": [
+              "contentState",
+              "lastOpenedAt"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_books_contentState_lastOpenedAt` ON `${TABLE_NAME}` (`contentState`, `lastOpenedAt`)"
+          },
+          {
+            "name": "index_books_readingState_lastOpenedAt",
+            "unique": false,
+            "columnNames": [
+              "readingState",
+              "lastOpenedAt"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_books_readingState_lastOpenedAt` ON `${TABLE_NAME}` (`readingState`, `lastOpenedAt`)"
+          },
+          {
+            "name": "index_books_sourceHash",
+            "unique": false,
+            "columnNames": [
+              "sourceHash"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_books_sourceHash` ON `${TABLE_NAME}` (`sourceHash`)"
+          },
+          {
+            "name": "index_books_contentHash",
+            "unique": false,
+            "columnNames": [
+              "contentHash"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_books_contentHash` ON `${TABLE_NAME}` (`contentHash`)"
+          }
+        ]
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'c32bc918201c4aac22c0d0077c873251')"
+    ]
+  }
+}

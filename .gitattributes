@@ -1,0 +1,10 @@
+* text=auto
+
+*.bat text eol=crlf
+*.sh text eol=lf
+
+*.apk binary
+*.jks binary
+*.keystore binary
+*.png binary
+*.webp binary
